@@ -7,7 +7,7 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Label } from "@/components/ui/label";
 import { useDrop } from 'react-dnd';
 import { DndProvider, useDrag, HTML5Backend } from 'react-dnd-html5-backend';
-import QrReader from 'react-qr-reader';
+import QrScanner from 'react-qr-scanner';
 import QRCode from 'qrcode.react';
 import { v4 as uuidv4 } from 'uuid';
 import { initializeApp } from 'firebase/app';
